@@ -27,12 +27,20 @@
 
   //replace this with the config in the code snippet provided from Firebase.
   var config = {
-    apiKey: apiKey, // this is the only exception- make sure you're using the apiKey variable!
-    authDomain: "databaseexample-5d86a.firebaseapp.com",
-    databaseURL: "https://databaseexample-5d86a.firebaseio.com",
-    projectId: "databaseexample-5d86a",
-    storageBucket: "databaseexample-5d86a.appspot.com",
-    messagingSenderId: "684265563648"
+    
+<script src="https://www.gstatic.com/firebasejs/4.10.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAskq3X5LJVqLhJO9XoWiA49QnMWSnrU-0",
+    authDomain: "myhubspotproject.firebaseapp.com",
+    databaseURL: "https://myhubspotproject.firebaseio.com",
+    projectId: "myhubspotproject",
+    storageBucket: "myhubspotproject.appspot.com",
+    messagingSenderId: "180572043734"
+  };
+  firebase.initializeApp(config);
+</script>
   };
 
   firebase.initializeApp(config);
